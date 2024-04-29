@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px
+}
+
+.header a {
+    font-size: 18px;
+    color: #c8d2e8;
+}
+
+.header-title {
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f32020;
+}
+
+.awesome {
+    background-color: #1F2937;
+    padding: 64px;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.awesome-image {
+    flex: 1;
+    background-color: #454d58;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+.awesome-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.awesome-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f905b8;
+    margin: 0;
+}
+
+.awesome-text p {
+    font-size: 18px;
+    color: #77757b;
+    margin: 0;
+}
+
+.awesome-button {
+    background-color: #3882F6;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin: 10px;
+    border: 0;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 16px;
+}
+
+.cards-title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 24px 0;
+    color: #1F2937;
+}
+
+.cards-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.box {
+    margin: 8px;
+    outline-color:#3882F6;
+    outline-style: solid;
+    outline-width: 5px;
+    border-radius: 24px;
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 86px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.action {
+    margin: 64px;
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-button {
+    outline: #E5E7EB solid 2px;
+    color: #E5E7EB;
+    padding: 4px 16px;
+    background-color: #3882F6;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.action-title {
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.action-text {
+    color: #E5E7EB;
+}
